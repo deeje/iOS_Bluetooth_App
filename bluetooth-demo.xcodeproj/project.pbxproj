@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57DD516218062EBC006D79AB /* AsyncNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DD516118062EBC006D79AB /* AsyncNetwork.framework */; };
+		57DD516518063089006D79AB /* BTBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FAA22D17F4A49D00C4AAF7 /* BTBluetoothManager.m */; };
+		57DD516618063089006D79AB /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FAA22717F49EFA00C4AAF7 /* UIColor+RandomColor.m */; };
+		57DD516718063089006D79AB /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FAA20517F49DC900C4AAF7 /* BTViewController.m */; };
+		57DD516818063089006D79AB /* BTBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FAA22A17F49FA200C4AAF7 /* BTBubbleView.m */; };
+		57DD516918063089006D79AB /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FAA1FF17F49DC900C4AAF7 /* BTAppDelegate.m */; };
+		57DD516A18063089006D79AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FAA1FB17F49DC900C4AAF7 /* main.m */; };
+		57DD516C18063089006D79AB /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FAA22F17F4AEDD00C4AAF7 /* MultipeerConnectivity.framework */; };
+		57DD516D18063089006D79AB /* AsyncNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DD516118062EBC006D79AB /* AsyncNetwork.framework */; };
+		57DD516E18063089006D79AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FAA1F117F49DC900C4AAF7 /* CoreGraphics.framework */; };
+		57DD516F18063089006D79AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FAA1F317F49DC900C4AAF7 /* UIKit.framework */; };
+		57DD517018063089006D79AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FAA1EF17F49DC900C4AAF7 /* Foundation.framework */; };
+		57DD517218063089006D79AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FAA20717F49DC900C4AAF7 /* Images.xcassets */; };
+		57DD517318063089006D79AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6589AB2317F4CA2000C6FADB /* Main.storyboard */; };
+		57DD517418063089006D79AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3FAA1F817F49DC900C4AAF7 /* InfoPlist.strings */; };
 		6589AB2417F4CA2000C6FADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6589AB2317F4CA2000C6FADB /* Main.storyboard */; };
 		C3FAA1F017F49DC900C4AAF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FAA1EF17F49DC900C4AAF7 /* Foundation.framework */; };
 		C3FAA1F217F49DC900C4AAF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FAA1F117F49DC900C4AAF7 /* CoreGraphics.framework */; };
@@ -38,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57DD516118062EBC006D79AB /* AsyncNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AsyncNetwork.framework; sourceTree = "<group>"; };
+		57DD517818063089006D79AB /* live-MPC copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "live-MPC copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DD517918063089006D79AB /* live-MPC copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "live-MPC copy-Info.plist"; path = "/Users/deeje/Documents/iOS_Bluetooth_App/live-MPC copy-Info.plist"; sourceTree = "<absolute>"; };
 		6589AB2317F4CA2000C6FADB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C3FAA1EC17F49DC900C4AAF7 /* bluetooth-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluetooth-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FAA1EF17F49DC900C4AAF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,11 +85,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		57DD516B18063089006D79AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DD516C18063089006D79AB /* MultipeerConnectivity.framework in Frameworks */,
+				57DD516D18063089006D79AB /* AsyncNetwork.framework in Frameworks */,
+				57DD516E18063089006D79AB /* CoreGraphics.framework in Frameworks */,
+				57DD516F18063089006D79AB /* UIKit.framework in Frameworks */,
+				57DD517018063089006D79AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3FAA1E917F49DC900C4AAF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C3FAA23017F4AEDD00C4AAF7 /* MultipeerConnectivity.framework in Frameworks */,
+				57DD516218062EBC006D79AB /* AsyncNetwork.framework in Frameworks */,
 				C3FAA1F217F49DC900C4AAF7 /* CoreGraphics.framework in Frameworks */,
 				C3FAA1F417F49DC900C4AAF7 /* UIKit.framework in Frameworks */,
 				C3FAA1F017F49DC900C4AAF7 /* Foundation.framework in Frameworks */,
@@ -94,10 +125,12 @@
 		C3FAA1E317F49DC900C4AAF7 = {
 			isa = PBXGroup;
 			children = (
+				57DD516118062EBC006D79AB /* AsyncNetwork.framework */,
 				C3FAA1F517F49DC900C4AAF7 /* bluetooth-demo */,
 				C3FAA21417F49DC900C4AAF7 /* bluetooth-demoTests */,
 				C3FAA1EE17F49DC900C4AAF7 /* Frameworks */,
 				C3FAA1ED17F49DC900C4AAF7 /* Products */,
+				57DD517918063089006D79AB /* live-MPC copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +139,7 @@
 			children = (
 				C3FAA1EC17F49DC900C4AAF7 /* bluetooth-demo.app */,
 				C3FAA20D17F49DC900C4AAF7 /* bluetooth-demoTests.xctest */,
+				57DD517818063089006D79AB /* live-MPC copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,9 +208,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C3FAA1EB17F49DC900C4AAF7 /* bluetooth-demo */ = {
+		57DD516318063089006D79AB /* live-CAN */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3FAA21E17F49DC900C4AAF7 /* Build configuration list for PBXNativeTarget "bluetooth-demo" */;
+			buildConfigurationList = 57DD517518063089006D79AB /* Build configuration list for PBXNativeTarget "live-CAN" */;
+			buildPhases = (
+				57DD516418063089006D79AB /* Sources */,
+				57DD516B18063089006D79AB /* Frameworks */,
+				57DD517118063089006D79AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "live-CAN";
+			productName = "bluetooth-demo";
+			productReference = 57DD517818063089006D79AB /* live-MPC copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3FAA1EB17F49DC900C4AAF7 /* live-MPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FAA21E17F49DC900C4AAF7 /* Build configuration list for PBXNativeTarget "live-MPC" */;
 			buildPhases = (
 				C3FAA1E817F49DC900C4AAF7 /* Sources */,
 				C3FAA1E917F49DC900C4AAF7 /* Frameworks */,
@@ -186,7 +237,7 @@
 			);
 			dependencies = (
 			);
-			name = "bluetooth-demo";
+			name = "live-MPC";
 			productName = "bluetooth-demo";
 			productReference = C3FAA1EC17F49DC900C4AAF7 /* bluetooth-demo.app */;
 			productType = "com.apple.product-type.application";
@@ -237,13 +288,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C3FAA1EB17F49DC900C4AAF7 /* bluetooth-demo */,
+				C3FAA1EB17F49DC900C4AAF7 /* live-MPC */,
+				57DD516318063089006D79AB /* live-CAN */,
 				C3FAA20C17F49DC900C4AAF7 /* bluetooth-demoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		57DD517118063089006D79AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DD517218063089006D79AB /* Images.xcassets in Resources */,
+				57DD517318063089006D79AB /* Main.storyboard in Resources */,
+				57DD517418063089006D79AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3FAA1EA17F49DC900C4AAF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +327,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		57DD516418063089006D79AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DD516518063089006D79AB /* BTBluetoothManager.m in Sources */,
+				57DD516618063089006D79AB /* UIColor+RandomColor.m in Sources */,
+				57DD516718063089006D79AB /* BTViewController.m in Sources */,
+				57DD516818063089006D79AB /* BTBubbleView.m in Sources */,
+				57DD516918063089006D79AB /* BTAppDelegate.m in Sources */,
+				57DD516A18063089006D79AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3FAA1E817F49DC900C4AAF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,7 +366,7 @@
 /* Begin PBXTargetDependency section */
 		C3FAA21317F49DC900C4AAF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C3FAA1EB17F49DC900C4AAF7 /* bluetooth-demo */;
+			target = C3FAA1EB17F49DC900C4AAF7 /* live-MPC */;
 			targetProxy = C3FAA21217F49DC900C4AAF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -316,6 +391,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		57DD517618063089006D79AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/deeje/Documents/iOS_Bluetooth_App,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bluetooth-demo/bluetooth-demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"USE_CAN=1",
+				);
+				INFOPLIST_FILE = "live-MPC copy-Info.plist";
+				PRODUCT_NAME = "live-MPC copy";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57DD517718063089006D79AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/deeje/Documents/iOS_Bluetooth_App,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bluetooth-demo/bluetooth-demo-Prefix.pch";
+				INFOPLIST_FILE = "live-MPC copy-Info.plist";
+				PRODUCT_NAME = "live-MPC copy";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		C3FAA21C17F49DC900C4AAF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -395,6 +511,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/deeje/Documents/iOS_Bluetooth_App,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bluetooth-demo/bluetooth-demo-Prefix.pch";
 				INFOPLIST_FILE = "bluetooth-demo/bluetooth-demo-Info.plist";
@@ -409,6 +529,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/deeje/Documents/iOS_Bluetooth_App,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bluetooth-demo/bluetooth-demo-Prefix.pch";
 				INFOPLIST_FILE = "bluetooth-demo/bluetooth-demo-Info.plist";
@@ -463,6 +587,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		57DD517518063089006D79AB /* Build configuration list for PBXNativeTarget "live-CAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DD517618063089006D79AB /* Debug */,
+				57DD517718063089006D79AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C3FAA1E717F49DC900C4AAF7 /* Build configuration list for PBXProject "bluetooth-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -472,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3FAA21E17F49DC900C4AAF7 /* Build configuration list for PBXNativeTarget "bluetooth-demo" */ = {
+		C3FAA21E17F49DC900C4AAF7 /* Build configuration list for PBXNativeTarget "live-MPC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C3FAA21F17F49DC900C4AAF7 /* Debug */,
